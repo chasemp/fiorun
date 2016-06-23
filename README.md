@@ -8,3 +8,6 @@ the operator to specify various fio options and all possible combinations are te
 
 I have found in some scenarios where the workload of a server varies I can use this
 approach to find the best middle ground.
+
+    cd /path/to/test/device
+    fiorun.py <out_dir>
